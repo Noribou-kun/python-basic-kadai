@@ -1,0 +1,27 @@
+PS C:\Users\ntana> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\ntana
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2025/01/22      9:11                git_challenge
+
+PS C:\Users\ntana\git_challenge> git log --oneline
+c2a11df (HEAD -> main) Hello_world.txtを追加
+51a2b5d txt 削除
+f4e642d 3回目変更
+c91a3df ２回目変更
+0b58a29 1回目変更
+PS C:\Users\ntana\git_challenge> git add .
+PS C:\Users\ntana\git_challenge> git commit -m "日本語を追記”
+[main 29cd055] 日本語を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\ntana\git_challenge> git log --oneline
+29cd055 (HEAD -> main) 日本語を追記
+c2a11df Hello_world.txtを追加
+51a2b5d txt 削除
+f4e642d 3回目変更
+c91a3df ２回目変更
+0b58a29 1回目変更
